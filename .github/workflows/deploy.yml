@@ -39,6 +39,8 @@ jobs:
       - name: Build
         run: npm run build
         working-directory: frontend
+        env:
+          VITE_API_URL: https://bb-wtgj.onrender.com/api
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
