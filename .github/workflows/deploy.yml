@@ -34,7 +34,7 @@ jobs:
         run: npm run build
         working-directory: frontend
         env:
-          VITE_API_URL: https://bb-wn65.onrender.com/api
+          VITE_API_URL: https://bb-yny4.onrender.com/api
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
